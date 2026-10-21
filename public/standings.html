@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:ital,wght@1,700;1,800&display=swap"><link rel="stylesheet" href="/css/styles.css"><title>Apex F1 · Clasificación</title></head><body>
+<header class="top"><a class="brand" href="/">APEX<span>F1</span></a>
+<nav aria-label="Principal"><a href="/">Inicio</a><a href="/standings.html" aria-current="page">Clasificación</a><a href="/register.html">Registro</a></nav></header>
+<div class="kerb" aria-hidden="true"></div>
+<main>
+<h1>Clasificación</h1>
+<p class="lead">Datos de la API externa, solicitados a través de nuestro servidor.</p>
+<div class="tabs" role="tablist" aria-label="Tipo de datos">
+<button role="tab" data-view="drivers" aria-selected="true">Pilotos</button>
+<button role="tab" data-view="teams" aria-selected="false">Constructores</button>
+<button role="tab" data-view="races" aria-selected="false">Calendario</button>
+</div>
+<div class="scroll" id="out" aria-live="polite"></div>
+</main>
+<footer>Apex F1 · Proyecto académico, Unidad 3 · Datos vía API-Sports (consumidos desde el servidor)</footer>
+<script src="/js/common.js"></script><script src="/js/standings.js"></script></body></html>
